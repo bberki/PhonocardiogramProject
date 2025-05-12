@@ -1,18 +1,26 @@
-## Getting Started
+# Phonocardiogram Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is designed to process and analyze phonocardiogram signals from a `.wav` file, specifically targeting heart sound data for medical applications.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **WAV File Signal Processing**: Reads `.wav` file data and processes the signal.
+- **Signal Processing**: Includes basic signal manipulation (e.g., doubling the signal values).
+- **Data Handling**: The project aims to read and interpret audio data for heart sound analysis.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Currently Implemented
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- WAV file reading functionality (though not fully complete).
+- Basic signal processing (e.g., doubling the signal data).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## TODO
 
-## Dependency Management
+- **Signal Processing Enhancements**: The signal processing features are currently basic. Further processing techniques (e.g., frequency analysis, heart rate calculation, anomaly detection) are yet to be implemented.
+- **GUI Implementation**: A graphical user interface (GUI) is not yet implemented.
+- **WAV File Handling**: The complete `.wav` file reading and signal extraction process needs to be finalized.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/bberki/PhonocardiogramProject]
